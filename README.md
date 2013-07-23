@@ -1,4 +1,4 @@
-# Webrtc jQuery plugin
+# WebRTC jQuery plugin
 
 This plugin enables real-time streaming of video and/or audio between two web browsers(or peers).
 
