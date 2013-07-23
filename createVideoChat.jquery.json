@@ -1,12 +1,12 @@
 {
     "name": "createVideoChat",
-    "title": "jQuery Color",
+    "title": "WebRTC Video Chat",
     "description": "jQuery plugin for color manipulation and animation support.",
     "keywords": [
         "html5",
         "webrtc"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "Fresh Tilled Soil",
         "url": "https://github.com/jquery/jquery-color/blob/2.1.2/AUTHORS.txt"
