@@ -13,85 +13,86 @@ This plugin enables real-time streaming of video and/or audio between two web br
 
 ### First, the HTML...
 
-Place the following HTML code snippet within your &lt;body&gt; tag
-
-&lt;!-- main container --&gt;
-&lt;div id="mainContainer" class="main-container"&gt;
-
-    &lt;!-- local video --&gt;
-    &lt;video id="localVideo" class="local-video"&gt;&lt;/video&gt;
-
-    &lt;!-- remote video --&gt;
-    &lt;video id="remoteVideo" class="remote-video" autoplay&gt;&lt;/video&gt;
-
-    &lt;!-- video status & room entry bar --&gt;
-    &lt;div id="videoStatus" class="video-status"&gt;&lt;/div&gt;
-
-&lt;/div&gt;
+Place the following HTML code snippet within your <body> tag
+  
+    <!-- main container -->
+    <div id="mainContainer" class="main-container">
+    
+        <!-- local video -->
+        <video id="localVideo" class="local-video"></video>
+    
+        <!-- remote video -->
+        <video id="remoteVideo" class="remote-video" autoplay></video>
+    
+        <!-- video status & room entry bar -->
+        <div id="videoStatus" class="video-status"></div>
+    
+    </div>
 
 ### Then, the CSS...
 
-Include the css within your &lt;head&gt; tag
+Include the css within your head tag
 
-&lt;link rel="stylesheet" href="css/fts-webrtc-styles.css"&gt;
+    <link rel="stylesheet" href="css/fts-webrtc-styles.css">
+
 And finally, the bloody brilliant piece that makes it all happen --the JavaScript!
 
 This plugin enables real-time streaming of video between to browsers. Some more text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ipsum, tempor eget mollis in, vehicula eu quam. Fusce fermentum elit at lorem tincidunt eget tempus urna ultricies.
 
-&lt;!-- JavaScript Ressources --&gt;
-&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/jquery.fresh-tilled-soil-webrtc.js"&gt;&lt;/script&gt;
+    <!-- JavaScript Ressources -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.fresh-tilled-soil-webrtc.js"></script>
 
-&lt;!-- Plugin Initialization --&gt;
-&lt;script type="text/javascript"&gt;
-    $(function() {
-        $('#mainContainer').createVideoChat();
-    });
-&lt;/script&gt;
+    <!-- Plugin Initialization -->
+    <script type="text/javascript">
+        $(function() {
+            $('#mainContainer').createVideoChat();
+        });
+    </script>
 
 ### Full Sample Demo Page (Putting it all Together)
 
 This plugin enables real-time streaming of video between to browsers. Some more text here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ipsum, tempor eget mollis in, vehicula eu quam. Fusce fermentum elit at lorem tincidunt eget tempus urna ultricies.
 
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset="UTF-8"&gt;
-&lt;title&gt;Fresh Tilled Soil Video Conference | WebRTC jQuery Plug-in Demo&lt;/title&gt;
-
-&lt;!-- Stylesheet Resources --&gt;
-&lt;link rel="stylesheet" href="css/fts-webrtc-styles.css"&gt;
-
-&lt;/head&gt;
-&lt;body&gt;
-
-&lt;!-- main container --&gt;
-&lt;div id="mainContainer" class="main-container"&gt;
-
-    &lt;!-- local video --&gt;
-    &lt;video id="localVideo" class="local-video"&gt;&lt;/video&gt;
-
-    &lt;!-- remote video --&gt;
-    &lt;video id="remoteVideo" class="remote-video" autoplay&gt;&lt;/video&gt;
-
-    &lt;!-- video status & room entry bar --&gt;
-    &lt;div id="videoStatus" class="video-status"&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;!-- JavaScript Ressources --&gt;
-&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script src="js/jquery.fresh-tilled-soil-webrtc.js"&gt;&lt;/script&gt;
-
-&lt;!-- Plugin Initialization --&gt;
-&lt;script type="text/javascript"&gt;
-    $(function() {
-        $('#mainContainer').createVideoChat();
-    });
-&lt;/script&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Fresh Tilled Soil Video Conference | WebRTC jQuery Plug-in Demo</title>
+    
+    <!-- Stylesheet Resources -->
+    <link rel="stylesheet" href="css/fts-webrtc-styles.css">
+    
+    </head>
+    <body>
+    
+    <!-- main container -->
+    <div id="mainContainer" class="main-container">
+    
+        <!-- local video -->
+        <video id="localVideo" class="local-video"></video>
+    
+        <!-- remote video -->
+        <video id="remoteVideo" class="remote-video" autoplay></video>
+    
+        <!-- video status & room entry bar -->
+        <div id="videoStatus" class="video-status"></div>
+    
+    </div>
+    
+    <!-- JavaScript Ressources -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.fresh-tilled-soil-webrtc.js"></script>
+    
+    <!-- Plugin Initialization -->
+    <script type="text/javascript">
+        $(function() {
+            $('#mainContainer').createVideoChat();
+        });
+    </script>
+    
+    </body>
+    </html>
 
 ### Browser Support
 
