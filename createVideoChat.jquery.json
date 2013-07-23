@@ -6,10 +6,10 @@
         "html5",
         "webrtc"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": {
         "name": "Fresh Tilled Soil",
-        "url": "https://freshtilledsoil.com"
+        "url": "http://freshtilledsoil.com"
     },
     "maintainers": [
         {
