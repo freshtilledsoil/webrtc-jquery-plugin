@@ -6,7 +6,7 @@
         "html5",
         "webrtc"
     ],
-    "version": "1.0.2",
+    "version": "1.0.4",
     "author": {
         "name": "Fresh Tilled Soil",
         "url": "https://freshtilledsoil.com"
@@ -19,7 +19,7 @@
         },
         {
             "name": "Tim Wright",
-            "email": "tim.wright@freshtilledsoil.com",
+            "email": "timwright12@gmail.com",
             "url": "http://freshtilledsoil.com"
         }
     ],
