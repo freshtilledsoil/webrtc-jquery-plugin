@@ -1,12 +1,12 @@
 {
     "name": "createVideoChat",
     "title": "WebRTC Video Chat",
-    "description": "jQuery plugin for color manipulation and animation support.",
+    "description": "This plugin enables real-time streaming of video and/or audio between two web browsers (or peers).",
     "keywords": [
         "html5",
         "webrtc"
     ],
-    "version": "1.0.5",
+    "version": "1.0.6",
     "author": {
         "name": "Fresh Tilled Soil",
         "url": "http://freshtilledsoil.com"
