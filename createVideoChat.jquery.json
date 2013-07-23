@@ -1,0 +1,39 @@
+{
+    "name": "createVideoChat",
+    "title": "jQuery Color",
+    "description": "jQuery plugin for color manipulation and animation support.",
+    "keywords": [
+        "html5",
+        "webrtc"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Fresh Tilled Soil",
+        "url": "https://github.com/jquery/jquery-color/blob/2.1.2/AUTHORS.txt"
+    },
+    "maintainers": [
+        {
+            "name": "Paul Greenlea",
+            "email": "paul.greenlea@freshtilledsoil.com",
+            "url": "http://freshtilledsoil.com"
+        },
+        {
+            "name": "Tim Wright",
+            "email": "tim.wright@freshtilledsoil.com",
+            "url": "http://freshtilledsoil.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/freshtilledsoil/webrtc-jquery-plugin/issues",
+    "homepage": "https://github.com/freshtilledsoil/webrtc-jquery-plugin",
+    "docs": "https://github.com/freshtilledsoil/webrtc-jquery-plugin",
+    "download": "https://github.com/freshtilledsoil/webrtc-jquery-plugin",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
